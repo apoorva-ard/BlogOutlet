@@ -1,38 +1,152 @@
-.App {
-  text-align: center;
+.carousel-setup{
+    height: 300px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.carousel-image-setup{
+    height: 250px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.carousel-body{
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 3%;
+    color: white;
+    font-size: 20px;
+}
+.carousel-body-size{
+    font-size: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer-setup {
+    background-color: #363D46;
+    color: white;
+    position: absolute;
+    margin-top: 10%;
+    width: 100%;
+    padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer-setup a{
+    color: white;
+    text-decoration: none;
+}
+.footer-setup a:hover{
+    text-decoration: none;
+    color:gray;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.copyright-setup {
+    color: gray;
 }
 
-.App-link {
-  color: #61dafb;
+
+.line{
+    background-color: gray;
+    height: 0.1px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blog-card{
+    border: 1px solid gray;
+    border-radius: 18px;
+    padding: 2%;
+    margin: 10px;
+}
+.user-image{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 0;
+}
+.userimage-padding{
+    padding-left: 20px;
+}
+
+.form-setup{
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 480px) {
+    .carousel-image-setup{
+        display: none;
+    }
+    .carousel-body{
+        margin-top: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}  
+
+.link-setup a{
+    color: black;
+}
+.link-setup a:hover{
+    text-decoration: none;
+    color:#5FB394;
+}
+
+.error-display{
+    color: red;
+    font-size: 14px;
+}
+
+.login-notif{
+    background-color: #2E97A3;
+    color: white;
+    width: 200px;
+}
+
+.user-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.dropdown-setup{
+    background-color: gray;
+}
+
+.hover-decoration:hover{
+    color: #5FB394;
+}
+
+
+.color-setup{
+    color: #5FB394;
+}
+
+.no-border input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+
+*:focus {
+    outline: none;
+}
+
+.user-image-display{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.like-button{
+    border: 0px; 
+    background-color: transparent;
+}
+
+.like-button:focus{
+    border: 1px solid white;
+}
+
+.page-filler{
+    height: 600px;
+}
+
+.trash-setup{
+    color: red;
 }

@@ -1,0 +1,76 @@
+.blog-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.fixing-position{
+    margin: 5% 10% 5% 10%;
+    padding: 20px 20px 20px 20px;
+}
+.ql-align-center{
+    text-align:center;
+}
+.ql-align-right {
+    text-align: right;
+}
+.ql-align-justify {
+    text-align: justify;
+}
+.ql-font-courier-new{
+    font-family: 'Courier New';
+}
+.ql-font-comic-sans {
+    font-family: 'Comic Sans MS';
+}
+.ql-font-helvetica {
+    font-family: 'Helvetica';
+}
+.ql-font-georgia {
+    font-family: 'Georgia';
+}
+.ql-font-lucida {
+    font-family: 'Lucida Bright';
+}
+.ql-size-small{
+    font-size: 10px;
+}
+.ql-size-large {
+    font-size: 20px;
+}
+.ql-indent-1 {
+    text-indent: 50px;
+}
+.ql-indent-2 {
+    text-indent: 100px;
+}
+.ql-indent-3 {
+    text-indent: 150px;
+}
+.ql-indent-4 {
+    text-indent: 200px;
+}
+.ql-indent-5 {
+    text-indent: 250px;
+}
+.ql-indent-6 {
+    text-indent: 300px;
+}
+.ql-indent-7 {
+    text-indent: 350px;
+}
+.ql-indent-8 {
+    text-indent: 400px;
+}
+img{
+    max-height: 350px;
+    width: auto;
+}
+.ql-syntax {
+    background-color: #242422;
+    color: whitesmoke;
+    padding: 5px;
+}
+.topmargin-setup{
+    margin-top: 20px;
+}
